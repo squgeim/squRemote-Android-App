@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/eject"
+        android:title="@string/eject"
+        android:icon="@drawable/media_eject" android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:title="@string/action_settings" android:icon="@drawable/settings"/>
+    
+    <item 
+        android:id="@+id/abt"
+        android:title="@string/about" android:showAsAction="never" android:icon="@drawable/about"/>
+
+</menu>

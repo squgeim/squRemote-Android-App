@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:text="@string/keyspref_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/pref_frs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/mod_names" />
+    
+    <Spinner
+        android:id="@+id/pref_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/keys" />
+
+</LinearLayout>

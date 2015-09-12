@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">squRemote</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="play">play/pause toggle</string>
+    <string name="stop">stop button</string>
+    <string name="prev">previous button</string>
+    <string name="next">next button</string>
+    <string name="seek_left">seek left button</string>
+    <string name="seek_right">seek right button</string>
+    <string name="eject">Eject Disk</string>
+    <string name="about">About</string>
+    
+    <string name="player">Media Player Settings</string>
+    <string name="default_title">Use Default Media Keys</string>
+    <string name="default_summary">Whether to use the default media keys or the custom media keys defined below.</string>
+    <string name="custom">Custom Media Keys</string>
+    
+    <string name="pref_play">Play Button</string>
+    <string name="pref_stop">Stop Button</string>
+    <string name="pref_prev">Previous Button</string>
+    <string name="pref_next">Next Button</string>
+    <string name="pref_sleft">Seek Left Button</string>
+    <string name="pref_srht">Seek Right Button</string>
+    <string name="pref_vup">Volume Up Button</string>
+    <string name="pref_vdwn">Volume Down Button</string>
+    <string name="keyspref_title">Choose the keyboard combination to be simulated when you press this button (like Shift+Left).</string>
+    
+    <string name="conn">Connection Settings</string>
+    <string name="ip_title">IP Address</string>
+    <string name="ip_summary">The IP address squRemote is listening to.\nIt is shown on the computer when squRemote starts.</string>
+    <string name="port_title">Port no.</string>
+    <string name="port_summary">The port no. squRemote is listening to.\nIt is shown on the computer when squRemote starts.</string>
+
+</resources>

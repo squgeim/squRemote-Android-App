@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory 
+        android:title="@string/player">
+        <CheckBoxPreference
+            android:key="def"
+            android:title="@string/default_title"
+            android:summary="@string/default_summary"
+            android:defaultValue="true" />
+        <PreferenceScreen 
+            android:title="@string/custom">
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_play"
+                android:key="play"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_stop"
+                android:key="stop"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_prev"
+                android:key="prev"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_next"
+                android:key="next"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_sleft"
+                android:key="sleft"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_srht"
+                android:key="srht"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_vup"
+                android:key="vup"
+                android:defaultValue="def" />
+            <com.squgeim.squremote.KeysPrefs
+                android:title="@string/pref_vdwn"
+                android:key="vdwn"
+                android:defaultValue="def" />      
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory 
+        android:title="@string/conn">
+        <EditTextPreference
+            android:key="ip"
+            android:title="@string/ip_title"
+            android:summary="@string/ip_summary"
+            android:defaultValue="192.168.0.102" />
+        <EditTextPreference 
+            android:key="port"
+            android:title="@string/port_title"
+            android:summary="@string/port_summary"
+            android:defaultValue="9999" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
